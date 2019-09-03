@@ -46,12 +46,6 @@ If you need more than that you'll have to pay.
   - Click the button "Enable API"
 6. Update your conf (and your modules if necessary)
 
-### Custom Mustachification Service
-
-To enable the `mustache me` feature, set the environment variable  `HUBOT_MUSTACHIFY_URL`
-to your mustachify server url. More info and the source code of mustachify can be
-found at [https://github.com/afeld/mustachio](https://github.com/afeld/mustachio)
-
 ### Listen for `image me` and `animate me`
 
 If you want to have your bot respond to any chat that begins with `image me` or
@@ -65,6 +59,4 @@ user1>> hubot image me bananas
 hubot>> http://upload.wikimedia.org/wikipedia/commons/4/4c/Bananas.jpg
 user2>> hubot animate me it's happening
 hubot>> http://i.kinja-img.com/gawker-media/image/upload/s--8U6TKXoi--/thfydh8egnt8he5esoz8.gif
-user3>> hubot mustache me family portrait
-hubot>> http://mustachify.me/1?src=http://www.daviddanielsphotography.com/wp-content/uploads/2013/03/Chowen-Family-Portraits-east-of-Park-City-13.jpg
 ```
